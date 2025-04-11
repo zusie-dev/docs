@@ -20,7 +20,12 @@ import TabItem from '@theme/TabItem';
 | reason       | string |                                        |
 | type         | enum   | Allowed: core / premium / premium_test |
 | district_ids | string | Comma separated list                   |
-| …            |        |                                        |
+| from         | string | Date in ISO8601 format                 |
+| to           | string | Date in ISO8601 format                 |
+| search       | string |                                        |
+| sort         | string |                                        |
+| start        | number |                                        |
+| count        | number |                                        |
 
 ### Payload
 
